@@ -34,12 +34,12 @@ a.nav-link{
     box-sizing:border-box;
   }
 
-  .container{
+  .container , section{
     padding: 50px;
     
   }
   
-  .row:after {
+  .row:after , section{
     content: "";
     display: table;
     clear: both
@@ -60,6 +60,7 @@ a.nav-link{
   }
   img {
     display: block;
+    text-align: center;
     height: auto;
     max-width: 100%;
   }
@@ -69,6 +70,93 @@ a.nav-link{
 
   }
   
+  
+#demo {
+  background: linear-gradient(112deg, #ffffff 50%, #f0f4f5 50%);
+  max-width: 900px;
+  margin: auto
+}
+
+.carousel-caption {
+  position: initial;
+  z-index: 10;
+  padding: 5rem 8rem;
+  color: black;
+  text-align: center;
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 2rem;
+
+}
+
+@media(max-width:767px) {
+  .carousel-caption {
+      position: initial;
+      z-index: 10;
+      padding: 3rem 2rem;
+      color:rgba(0, 0, 0, 0.685);
+      text-align: center;
+      font-size: 18px;
+      font-style: italic;
+      font-weight: bold;
+      line-height: 1.5rem
+  }
+}
+
+.carousel-caption img {
+  width: 175px;
+  border-radius: 50%;
+  margin-top: 2rem
+}
+
+@media(max-width:767px) {
+  .carousel-caption img {
+      width: 4rem;
+      border-radius: 4rem;
+      margin-top: 1rem
+  }
+}
+
+#image-caption {
+  font-style: normal;
+  font-size: 1rem;
+  margin-top: 0.5rem
+}
+
+@media(max-width:767px) {
+  #image-caption {
+      font-style: normal;
+      font-size: 0.6rem;
+      margin-top: 0.5rem
+  }
+}
+
+i {
+  background-color:rgba(105, 105, 105, 0.425);
+   padding: 1.4rem
+  
+}
+
+@media(max-width:767px) {
+  i {
+      padding: 0.8rem
+  }
+}
+
+.carousel-control-prev {
+  justify-content: flex-start
+}
+
+.carousel-control-next {
+  justify-content: flex-end
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  transition: none;
+  opacity: unset
+}
   
   @media screen and (max-width: 1000px) {
     .column-66,
