@@ -202,6 +202,19 @@ i  {
   i  {
       padding: 0.8rem
   }
+  
+  p{
+    font-size: 15px;
+    
+  }
+  h1{
+    font-size: 22.5px;
+    letter-spacing: 2.5px;
+  }
+  h5{
+    font-size: 18px;
+    letter-spacing: 2.5px;
+  }
 }
 
 .carousel-control-prev {
