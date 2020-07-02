@@ -9,7 +9,8 @@
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
- 
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
      <link rel="stylesheet" type="text/css" href="style.css">
      
      <title>HARRY BHOJANAM</title>
@@ -18,7 +19,7 @@
     <body>
     <!--Nav BAR-->
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light  sticky-top">
             <a class="navbar-brand" href="#">HARRY BHOJANAM</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -27,16 +28,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto" >
                  <li class="nav-item active">
-                  <a class="nav-link" href="#">ABOUT US <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#about">ABOUT US <span class="sr-only">(current)</span></a>
                  </li>
                  <li class="nav-item active">
-                    <a class="nav-link" href="#">SERVICES <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#services">SERVICES <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item active">
-                    <a class="nav-link" href="#">TESTIMONIALS <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#testimonial">TESTIMONIALS <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item active">
-                    <a class="nav-link" href="#">CONTACT <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#contact">CONTACT <span class="sr-only">(current)</span></a>
                   </li>
                 </ul>
             </div>
@@ -54,7 +55,7 @@
    
      <!--START OF ABOUT-->
      
-     <div class="container">
+     <div class="container" id="about">
         <div class="row">
           <div class="column-33">
             <img src="logo.png" width="500px" height="500px" >
@@ -75,16 +76,14 @@
 
     <!--START OF Services-->
 
-    <div class="container">
+    <div class="container" id="services">
         <div class="row">
             <div class="column-66">
-             <h1 style="text-align: center;" >SERVICES</h1>
-             <h5 style="text-align: center;">"EAT GOOD
-                <br>FEEL GOOD
-                <br>DELICIOUS HOME MADE FOOD"</h5>
-             <br><p style="text-align: center;"> The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.
-
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+             <h1 style="text-align: center;"  >SERVICES</h1>
+             <h5 style="text-align: center;"> <i2 class="fas fa-quote-left"> </i2> YOU DON'T NEED A SILVER FORK TO EAT GOOD FOOD;
+               <br> ALL YOU NEED IS LOVE AND AFFECTION</h5>
+             <p style="text-align: center;">Our services range from scrumptious spicy Aloo parathas to soft battered Chappathis. Our Sambhar is quite exquisite in its own unique way and everything here is HOMEMADE. We grind our own batter for Idly, Dosa to sambhar powder, which ensures a healthy and tasty feast to our customers. We at Harry Bhojanam serve a special jeera buttermilk during that will soothe your stomach and your heart from the scorching heat that prevails during summer.
+              Are you bored with a redundant menu?<br> Good! Because We change our menus every week with various varieties of food that'll leave your taste buds tingling. Not only do we cook tasty food: We establish a safe, embellishing environment for you to enjoy your food and all this at a nominal price. Well! What are you waiting for? Come Home to Harry Bhojanam! Come home to the gateway and see where the magic happens!</p>
             </div>
           <div class="column-33">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -122,7 +121,8 @@
               </div>
           </div>
           </div>
-        </div> <hr>
+          <br><hr>
+        </div> 
      </div>
     
     
@@ -130,8 +130,8 @@
      <!--end OF services-->
 
      <!--START OF TESTIMONIALS-->
-     <div class="container">
-       <h1 style="text-align: center;">Testimonial</h1><br>
+     <div class="container" id="testimonial">
+       <h1 style="text-align: center;" >Testimonials</h1><br>
       <div id="demo" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
               <div class="carousel-item active">
@@ -161,26 +161,28 @@
                       <img src="arvind.jpeg" class="img-fluid" style="margin: auto;">
                       <div id="image-caption"><h4>ARAVIND SRIHARI BV</h4></div>
                   </div>
+                
                                    
               </div>
           </div> <a class="carousel-control-prev" href="#demo" data-slide="prev"> <i class='fas fa-arrow-left'></i> </a> <a class="carousel-control-next" href="#demo" data-slide="next"> <i class='fas fa-arrow-right'></i> </a>
-      </div>
-     
+      </div><br>
+        <div class="contact"><a href="https://www.google.com/search?hl=en-IN&gl=in&q=HARRY+BHOJANAM,+52/A,1st+Floor,+Banadurai+N+St,+Anna+Nagar,+Kumbakonam,+Tamil+Nadu+612001&ludocid=3382726911670906937&lsig=AB86z5UHfIAtLVy-w5Q9BADTCKsP#lrd=0x3a5533208763249b:0x2ef1dc34264c7039,1,,,"><i class="fa fa-eye" aria-hidden="true"> SEE MORE</i></a></div>
+      <br><hr>
   </div>
-  <hr>
+ 
      <!--END OF TESTIMONIALS-->
 
        <!--START OF CONTACT-->
-       <div class="container">
-         <h1 style="text-align: center;">CONTACT</h1><br>
-          <h4 style="text-align: center;">PHONE : +91 99520 53315 </h4>
-          <h4 style="text-align: center;">ADDRESS: 52/A,1st Floor<br>
-            Banadurai north Street<br>
-            Anna nagar, Kumbakonam<br>
-            Tamil Nadu 612001</h4>
-            
-            
-       </div>
+          
+        <div class="container" id="contact">
+          <h1 style="text-align: center;" >CONTACT</h1>
+          <div class="contact"><a href="tel: 099520 53315 "><i1 class="fa fa-phone" aria-hidden="true" style="align-items: center;">  CALL NOW</i1></a> </div>
+          <div class="contact"><a href="https://www.facebook.com/Murlihariharan/"><i1 class="fa fa-facebook" aria-hidden="true" style="align-items: center;">  FACEBOOK</i1></a></div>
+          <div class="contact"><i1 class="fa fa-google" aria-hidden="true" style="align-items: center;">  GMAIL</i1></div>
+          <div class="contact"><a href="https://www.google.com/maps/place/HARRY+BHOJANAM/@10.9645439,79.3829008,19z/data=!4m5!3m4!1s0x0:0x2ef1dc34264c7039!8m2!3d10.9648862!4d79.3829008?hl=en-IN"><i1 class="fa fa-map" aria-hidden="true" style="align-items: center;">  ADDRESS</i1></a></div>
+          <div class="contact"> <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.979944481359!2d79.38071211488673!3d10.964886192193761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5533208763249b%3A0x2ef1dc34264c7039!2sHARRY%20BHOJANAM!5e0!3m2!1sen!2sin!4v1593705403543!5m2!1sen!2sin" width="100%" height="450px " frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+        </div>
+      
 
       <!--END OF CONTACT-->
 

@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p{
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .navbar-brand{
@@ -132,14 +132,74 @@ a.nav-link{
   }
 }
 
-i {
+i  {
   background-color:rgba(105, 105, 105, 0.425);
    padding: 1.4rem
-  
 }
 
+.fa {
+  opacity: .8;
+  padding: 10px;
+  font-size: 20px;
+  margin: 10px auto;
+  width: 20%;
+  border: 1px solid black;
+  height: auto;
+ 
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+} 
+
+.contact{
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.fa-facebook {
+  background: radial-gradient(#3b5998  , #0084FF);
+  color: white;
+}
+.fa-phone {
+  align-items: center;
+  background: radial-gradient(#57e86b  , #a9f36a);
+  color: white;
+}
+.fa-map {
+  background: radial-gradient( rgb(43, 41, 41)  ,white);
+  color: white;
+}
+
+.fa-google {
+  background: radial-gradient( #b23121  ,#f07267);
+  color: white;
+}
+
+.fa-eye{
+  opacity: .8;
+  padding: 10px;
+  font-size: 20px;
+  margin: 10px auto;
+  width: 20%;
+  border: 1px solid black;
+  border-radius: 0;
+  text-align: center;
+  text-decoration: none;
+  background: linear-gradient(112deg, #ffffff 50%, #f0f4f5 50%);
+  color:black;
+}
+
+
 @media(max-width:767px) {
-  i {
+  i  {
       padding: 0.8rem
   }
 }
@@ -160,7 +220,9 @@ i {
   
   @media screen and (max-width: 1000px) {
     .column-66,
-    .column-33 {
+    .column-33,
+    .contact,
+    .fa{
       width: 100%;
       text-align: center;
     }
