@@ -116,6 +116,9 @@ a.nav-link{
       border-radius: 4rem;
       margin-top: 1rem
   }
+  img.card{
+    height: 300px;
+  }
 }
 
 #image-caption {
@@ -149,9 +152,7 @@ i  {
   text-decoration: none;
 }
 
-img.card{
-  height: 300px;
-}
+
 
 
 .contact{
@@ -315,3 +316,4 @@ img.card{
 
 
 
+  }
