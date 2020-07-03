@@ -149,7 +149,9 @@ i  {
   text-decoration: none;
 }
 
-/* Add a hover effect if you want */
+img.card{
+  height: 300px;
+}
 
 
 .contact{
