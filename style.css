@@ -138,25 +138,19 @@ i  {
 }
 
 .fa {
-  opacity: .8;
   padding: 10px;
   font-size: 20px;
   margin: 10px auto;
   width: 20%;
   border: 1px solid black;
   height: auto;
- 
+  border-radius: 50px;
   text-align: center;
   text-decoration: none;
 }
 
 /* Add a hover effect if you want */
-.fa:hover {
-  opacity: 1;
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-} 
+
 
 .contact{
   margin: auto;
@@ -165,35 +159,85 @@ i  {
 }
 
 .fa-facebook {
-  background: radial-gradient(#3b5998  , #0084FF);
-  color: white;
+  background: white;
+  color:#3b5998;
+}
+
+.fa-facebook:hover {
+  background:#3b5998;
+  color:white;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  
 }
 .fa-phone {
   align-items: center;
-  background: radial-gradient(#57e86b  , #a9f36a);
+  background: white;
+  color: #25D366;
+}
+
+.fa-phone:hover {
+  align-items: center;
+  background: #25D366;
   color: white;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
 .fa-map {
-  background: radial-gradient( rgb(43, 41, 41)  ,white);
+  background: white;
+  color: black;
+}
+
+.fa-map:hover {
+  background: black;
   color: white;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .fa-google {
-  background: radial-gradient( #b23121  ,#f07267);
-  color: white;
+  background: white;
+  color: #b23121;
 }
 
+.fa-google:hover {
+  background: #b23121;
+  color: white;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+
 .fa-eye{
-  opacity: .8;
+  
   padding: 10px;
   font-size: 20px;
   margin: 10px auto;
   width: 20%;
   border: 1px solid black;
-  border-radius: 0;
+  border-radius: 50px;
   text-align: center;
   text-decoration: none;
   background: linear-gradient(112deg, #ffffff 50%, #f0f4f5 50%);
+  color:black;
+}
+
+.fa-eye:hover{
+  
+  padding: 10px;
+  font-size: 20px;
+  margin: 10px auto;
+  width: 20%;
+  border: 1px solid black;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+  background:  #f0f4f5;
+ 
   color:black;
 }
 
